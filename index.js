@@ -11,4 +11,4 @@ http.createServer(function(req, res) {
     proxyReq.setHeader('X-Forwarded-UserEmail', new Date());
   });
   proxy.web(req, res, { target: 'http://' + subdomain });
-}).listen(8000);
+}).listen(8000, function() { console.log('Listening on port 8000'); });
