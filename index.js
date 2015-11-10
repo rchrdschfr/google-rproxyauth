@@ -45,6 +45,8 @@ var app = express();
 // define our sessions
 app.use(session({
   secret: sessionSecret,
+  resave: false,
+  saveUninitialized: false,
   cookie: {
     path: '/',
     httpOnly: true,
