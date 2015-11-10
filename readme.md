@@ -35,4 +35,5 @@ Upon authentication, the proxy will set an `X-Forwarded-UserEmail` header that i
 It is up to the site being proxied to decide how to control access from there.
 
 ####Notes
+- If you are running the proxy in front of WordPress, you can install [this plugin](https://rchrdschfr@bitbucket.org/rchrdschfr/rproxyauth.git) to control access.
 - If you are running on localhost, you will have to update your `hosts` file to reflect any subdomain you wish to use.
