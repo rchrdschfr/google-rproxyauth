@@ -1,14 +1,19 @@
 {
-  "name": "simplerproxy",
+  "name": "google-rproxyauth",
   "version": "0.0.1",
-  "description": "",
+  "description": "Google Oauth2 reverse proxy authentication.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Richard Schaefer <rchrdschfr@gmail.com> (http://rchrdschfr@gmail.com)",
   "license": "ISC",
   "dependencies": {
-    "http-proxy": "^1.12.0"
+    "cookie-session": "^1.2.0",
+    "express": "^4.13.3",
+    "express-session": "^1.12.1",
+    "http-proxy": "^1.12.0",
+    "passport": "^0.3.0",
+    "passport-google-oauth": "^0.2.0"
   }
 }
