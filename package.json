@@ -15,5 +15,9 @@
     "http-proxy": "^1.12.0",
     "passport": "^0.3.0",
     "passport-google-oauth": "^0.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/rchrdschfr/google-rproxyauth.git"
   }
 }
