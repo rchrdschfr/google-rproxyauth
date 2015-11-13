@@ -6,7 +6,7 @@
 
 Create a file `settings.js` and export a configuration object in it like so
 
-settings.js
+######settings.js
 ```
 modules.exports = {
   domain: // the top-level domain this app is running on (can we get this automaticaly?)
