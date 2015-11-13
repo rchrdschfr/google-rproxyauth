@@ -1,6 +1,8 @@
 ## Installation
 
-`npm install`
+```
+npm install
+```
 
 ## Configuration
 
@@ -23,7 +25,9 @@ modules.exports = {
 
 ## Useage
 
-`node index.js`
+```
+node index.js
+```
 
 Then go to `<domain-you-want-to-proxy>.<your-domain>:<your-port-number>`
 
